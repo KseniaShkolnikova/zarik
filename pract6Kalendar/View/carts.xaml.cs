@@ -20,18 +20,37 @@ namespace pract6Kalendar
     /// </summary>
     public partial class carts : UserControl
     {
-        public carts()
+        DateTime date1 = DateTime.Now;
+        public carts(DateTime date)
         {
             InitializeComponent();
+            date1 = date;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            open_check();
+        }
+        private void Clear_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void See_Click(object sender, RoutedEventArgs e)
+        {
+            open_check();
+        }
+        private void open_check()
         {
             // открыть страницу выбора (вот чекни полная пизда и я эту зуйню главное понимаю) 
             Window window = Window.GetWindow(this);
             Frame frame = (Frame)window.FindName("frame");
             Menu_change menu_Change = new Menu_change();
             frame.Content = menu_Change;
+            TextBlock textbloi = (TextBlock)window.FindName("date_txtblc");
+            textbloi.Text = date.Text + " " + date1.ToString("Y");
+            // анимация
+
         }
+        
     }
 }

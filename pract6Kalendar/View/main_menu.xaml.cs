@@ -25,11 +25,10 @@ namespace pract6Kalendar
             InitializeComponent();
             //обновление карточек после нажатия кнопок
             wrapPanel.Children.Clear();
-            for (int i = 1; i < DateTime.DaysInMonth(date.Year, date.Month); i++)
+            for (int i = 1; i <= DateTime.DaysInMonth(date.Year, date.Month); i++)
             {
-                carts carts = new carts();
+                carts carts = new carts(date);
                 carts.date.Text = i.ToString();
-
                 wrapPanel.Children.Add(carts);
             }
         }

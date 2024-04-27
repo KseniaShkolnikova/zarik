@@ -23,6 +23,7 @@ namespace pract6Kalendar
         public Menu_change()
         {
             InitializeComponent();
+            
         }
     }
 }
