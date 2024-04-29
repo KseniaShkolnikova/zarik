@@ -46,8 +46,8 @@ namespace pract6Kalendar
             //back_btn.BeginAnimation(Button.HeightProperty, size);
             DoubleAnimationUsingKeyFrames size = new DoubleAnimationUsingKeyFrames();
             size.Duration = TimeSpan.FromSeconds(2);
-            size.KeyFrames.Add(new LinearDoubleKeyFrame(600,KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1))));
-            size.KeyFrames.Add(new LinearDoubleKeyFrame(500, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(2))));
+            size.KeyFrames.Add(new LinearDoubleKeyFrame(700,KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.5))));
+            size.KeyFrames.Add(new LinearDoubleKeyFrame(600, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1))));
             this.BeginAnimation(WidthProperty, size);
             ColorAnimation color = new ColorAnimation();
             back_btn.Background = ((SolidColorBrush)back_btn.Background).Clone();
@@ -63,9 +63,9 @@ namespace pract6Kalendar
         {
             //анимации
             DoubleAnimationUsingKeyFrames size = new DoubleAnimationUsingKeyFrames();
-            size.Duration = TimeSpan.FromSeconds(2);
+            size.Duration = TimeSpan.FromSeconds(1);
+            size.KeyFrames.Add(new LinearDoubleKeyFrame(700, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0.5))));
             size.KeyFrames.Add(new LinearDoubleKeyFrame(600, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1))));
-            size.KeyFrames.Add(new LinearDoubleKeyFrame(500, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(2))));
             this.BeginAnimation(WidthProperty, size);
             ColorAnimation color = new ColorAnimation();
             next_btm.Background = ((SolidColorBrush)next_btm.Background).Clone();

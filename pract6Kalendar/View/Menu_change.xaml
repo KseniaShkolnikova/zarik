@@ -10,39 +10,33 @@
 
     <Grid>
         <Grid.RowDefinitions>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="79*"/>
-                <ColumnDefinition Width="124*"/>
-                <ColumnDefinition Width="297*"/>
-            </Grid.ColumnDefinitions>
-            <CheckBox Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center" Height="18" Width="18"/>
-            <CheckBox Grid.Column="0" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Center" Height="18" Width="18"/>
-            <CheckBox Grid.Column="0" Grid.Row="2" HorizontalAlignment="Left" VerticalAlignment="Center" Height="18" Width="18"/>
-            <CheckBox Grid.Column="0" Grid.Row="3" HorizontalAlignment="Left" VerticalAlignment="Center" Height="18" Width="18"/>
-            <CheckBox Grid.Column="0" Grid.Row="4" HorizontalAlignment="Left" VerticalAlignment="Center" Height="18" Width="18"/>
-            <CheckBox Grid.Column="0" Grid.Row="5" HorizontalAlignment="Left" VerticalAlignment="Center" Height="18" Width="18"/>
-            <CheckBox Grid.Column="0" Grid.Row="6" HorizontalAlignment="Left" VerticalAlignment="Center" Height="18" Width="18"/>
-            <TextBlock Grid.Column="2" Grid.Row="0" FontSize="20px" HorizontalAlignment="Left"  TextWrapping="Wrap" Text="Фаст-фуд" VerticalAlignment="Center"/>
-            <TextBlock Grid.Column="2" Grid.Row="1" FontSize="20px" HorizontalAlignment="Left"  TextWrapping="Wrap" Text="Овощи" VerticalAlignment="Center"/>
-            <TextBlock Grid.Column="2" Grid.Row="2" FontSize="20px" HorizontalAlignment="Left"  TextWrapping="Wrap" Text="Мясо" VerticalAlignment="Center"/>
-            <TextBlock Grid.Column="2" Grid.Row="3" FontSize="20px" HorizontalAlignment="Left"  TextWrapping="Wrap" Text="Рыба" VerticalAlignment="Center"/>
-            <TextBlock Grid.Column="2" Grid.Row="4" FontSize="20px" HorizontalAlignment="Left"  TextWrapping="Wrap" Text="Фрукты" VerticalAlignment="Center"/>
-            <TextBlock Grid.Column="2" Grid.Row="5" FontSize="20px" HorizontalAlignment="Left"  TextWrapping="Wrap" Text="Салат" VerticalAlignment="Center"/>
-            <TextBlock Grid.Column="2" Grid.Row="6" FontSize="20px" HorizontalAlignment="Left"  TextWrapping="Wrap" Text="Молочка" VerticalAlignment="Center"/>
-            <Image  Source="/WIN_20230411_22_42_47_Pro.jpg" Grid.Row="0" Grid.Column="1" />
-            <Image Grid.Row="1" Grid.Column="1"  Source="/WIN_20230315_23_07_03_Pro.jpg"/>
-            <Image Grid.Row="2" Grid.Column="1" Source="/WIN_20230921_17_14_43_Pro.jpg" Stretch="Fill"/>
-            <Image Grid.Row="3" Grid.Column="1"  Source="/WIN_20230711_20_13_04_Pro.jpg" Stretch="Fill"/>
-            <Image Grid.Row="4" Grid.Column="1"  Source="/WIN_20230315_23_07_05_Pro.jpg" Stretch="Fill"/>
-            <Image Grid.Row="5" Grid.Column="1"  Source="/WIN_20230327_19_11_29_Pro.jpg" Stretch="Fill"/>
-        <Image Grid.Row="6" Grid.Column="1"  Source="/WIN_20230315_23_07_24_Pro.jpg" Stretch="Fill"/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="151*"/>
+            <ColumnDefinition Width="140*"/>
+            <ColumnDefinition Width="509*"/>
+        </Grid.ColumnDefinitions>
+        <CheckBox Name="_1" Grid.Column="0" Grid.Row="0" HorizontalAlignment="Right" VerticalAlignment="Center" />
+        <CheckBox Name="_2" Grid.Column="0" Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Center" />
+        <CheckBox Name="_3" Grid.Column="0" Grid.Row="2" HorizontalAlignment="Right" VerticalAlignment="Center" />
+        <CheckBox Name="_4" Grid.Column="0" Grid.Row="3" HorizontalAlignment="Right" VerticalAlignment="Center" />
+        <CheckBox Name="_5" Grid.Column="0" Grid.Row="4" HorizontalAlignment="Right" VerticalAlignment="Center" />
+        <TextBlock Grid.Column="2" FontSize="25px" Margin="10,0,0,0"  HorizontalAlignment="Left"  TextWrapping="Wrap" Text="Влюбленный ❤" VerticalAlignment="Center" />
+        <TextBlock Grid.Column="2" Grid.Row="1" FontSize="25px" HorizontalAlignment="Left"  TextWrapping="Wrap" Margin="10,0,0,0" Text="Охота навести суету 🤙" VerticalAlignment="Center" />
+        <TextBlock Grid.Column="2" Grid.Row="2" FontSize="25px" HorizontalAlignment="Left"  TextWrapping="Wrap" Margin="10,0,0,0" Text="Все плохо 🤧" VerticalAlignment="Center" />
+        <TextBlock Grid.Column="2" Grid.Row="3" FontSize="25px" HorizontalAlignment="Left"  TextWrapping="Wrap" Margin="10,0,0,0" Text="Деловой 💻" VerticalAlignment="Center" />
+        <TextBlock Grid.Column="2" Grid.Row="4" FontSize="25px" HorizontalAlignment="Left"  TextWrapping="Wrap" Margin="10,0,0,0" Text="Голодный 🍔" VerticalAlignment="Center" />
+        <Image Margin="5,0,0,5" Grid.Row="0" HorizontalAlignment="Left" Grid.Column="1" Source="/msg984776183-261182.jpg"/>
+        <Image Margin ="5,0,0,5"  Grid.Row="1" HorizontalAlignment="Left" Grid.Column="1" Source="/msg984776183-261194.jpg" />
+        <Image Margin ="5,0,0,5" Grid.Row="2" HorizontalAlignment="Left" Grid.Column="1" Source="/msg984776183-261197.jpg" />
+        <Image Margin ="5,0,0,5" Grid.Row="3" HorizontalAlignment="Left"  Grid.Column="1" Source="/msg984776183-261202.jpg"/>
+        <Image Margin ="5,0,0,5" Grid.Row="4" Grid.Column="1" HorizontalAlignment="Left" Source="/msg984776183-261204.jpg" />
+
+
     </Grid>
 </Page>

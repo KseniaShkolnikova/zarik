@@ -33,7 +33,7 @@ namespace pract6Kalendar
         }
         private void Clear_Click(object sender, RoutedEventArgs e)
         {
-
+            // тут ты должен сделать очистку джисон данного дня
         }
         private void See_Click(object sender, RoutedEventArgs e)
         {
